@@ -1,0 +1,19 @@
+// ----------- NAV items RRSS----------
+@mixin animasocial {
+      display: block !important;
+      font-size: 0.6rem !important;
+      font-family: $tipo_base;
+      font-weight: 400;
+      color: #fff !important;
+      padding: 2px 4px !important;
+      border-radius: 2px;
+      animation: mover 1s infinite  alternate;
+      @-webkit-keyframes mover {
+          0% { transform: translateY(-40px); }
+          100% { transform: translateY(-35px); }
+      }
+      @keyframes mover {
+          0% { transform: translateY(-35px); }
+          100% { transform: translateY(-40px); }
+      }
+    }
